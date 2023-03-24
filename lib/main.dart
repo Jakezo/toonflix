@@ -132,6 +132,16 @@ class MyApp extends StatelessWidget {
                     isInverted: true,
                   ),
                 ),
+                Transform.translate(
+                  offset: const Offset(0, -40),
+                  child: const CurrencyCard(
+                    name: 'Dollar',
+                    code: 'USD',
+                    amount: '55 622',
+                    icon: Icons.monetization_on_outlined,
+                    isInverted: false,
+                  ),
+                ),
               ],
             ),
           ),
